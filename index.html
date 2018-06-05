@@ -32,21 +32,23 @@ a:active {
 h1 {
     color: black;
     text-align: center;
-	font-family: Garamond;
-	font-style: normal;
-	font-variant: small-caps;
-	font-weight: 700;
-	line-height: 1vh;
+    font-family: Garamond;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 1000;
+    font-size: 300%;
+    line-height: 5vh;
 }
 
 h2 {
     color: black;
     text-align: center;
-	font-family: Garamond;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 700;
-	line-height: 3vh;
+    font-family: Garamond;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 5vh;
+    font-size: 200%
 }
 
 div.relative {
@@ -116,7 +118,7 @@ div.transbox p {
 [class*="col-"] {
     float: left;
     padding: 15px;
-    width: 100%;
+    width: 95%;
 }
 @media only screen and (min-width: 600px) {
     .col-s-1 {width: 8.33%;}
@@ -150,16 +152,17 @@ html {
     font-family: "Lucida Sans", sans-serif;
 }
 .header {
-   background-image: url(IMG_4557b.jpg);
-    background-repeat: no-repeat;
+    background-image: url(IMG_4557b.jpg);
+    background-repeat: repeat;
     background-position: center center;
     background-color: #D5D8DC;
-    border: 1px solid;
+    border: 3px solid;
     opacity: 1;
     /*width: 100vw;*/
-    /*height: 30vh;*/
+    height: auto;
     background-size: cover;
-    padding: 2px;
+     float: center;
+    padding: 5px;
 }
 .menu ul {
     list-style-type: none;
@@ -209,30 +212,31 @@ html {
 </style>
 </head>
 
-<body style="background-color:rgb(180,180,200);">
+<body style="background-color:white";">
 <div class="header">
     <h1>Josh Humberston</h1>
     <h2>
     Ph.D. Student, Oceanography<br>
     University of New Hampshire <br> 
     Durham, NH <br>
-    This website is a work in progress (last updated: May 31, 2018)
+    (last updated: June 5, 2018)
     </h2>
 </div>
+        <hr size="2" COLOR="gray" noshade>
 
 <div class="row">
     <div class="col-3 col-s-3 menu">
       <ul>
-        <img style="margin-bottom: 7px;" src="Headshot_Humberston.jpg" alt="Josh Humberston"/>
+        <img style="margin-bottom: 7px;" src="JH_MountainHostel_HeadShot.jpg" alt="Josh Humberston"/>
         <li><a href=".." target="_self">Home</a></li>
-        <li>Past Projects</li>
-        <li>Resources</li>
-        <li>Other</li>
+        <li>Past Projects (coming soon)</li>
+        <li>Resources (coming soon)</li>
+        <li>Other (coming soon)</li>
       </ul>
     </div>
 
 
-    <div class="col-8 col-s-12 menu">
+    <div style="background-color:rgb(220,220,230);" class="col-9 col-s-12 menu">
         <h1>Current Projects</h1>
         <a HREF="#dataviz">Data Visualization</a>&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;<a HREF="#inmorph">Inlet Morphodynamics</a>
 
